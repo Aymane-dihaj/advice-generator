@@ -132,3 +132,15 @@ button:hover
     box-shadow: 0px 0px 55px -4px var(--Neon-Green);
     cursor: pointer;
 }
+
+@keyframes shake
+{
+    from
+    {
+        transform: rotate(40deg);
+    }
+    to
+    {
+        transform: rotate(-40deg);
+    }
+}
